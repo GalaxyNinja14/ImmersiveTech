@@ -1,0 +1,8 @@
+C:/Unity/Vr Lab 2/.utmp/RelWithDebInfo/6p4s5l4v/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Unity/Vr Lab 2/.utmp/RelWithDebInfo/6p4s5l4v/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Unity/Vr Lab 2/.utmp/RelWithDebInfo/6p4s5l4v/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Unity/Vr Lab 2/.utmp/RelWithDebInfo/6p4s5l4v/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Unity/Vr Lab 2/.utmp/RelWithDebInfo/6p4s5l4v/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
+C:/Unity/Vr Lab 2/.utmp/RelWithDebInfo/6p4s5l4v/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/Unity/Vr Lab 2/.utmp/RelWithDebInfo/6p4s5l4v/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+C:/Unity/Vr Lab 2/.utmp/RelWithDebInfo/6p4s5l4v/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir

@@ -11,6 +11,8 @@ public class Gate : MonoBehaviour
         OpenGate();
         GameEvents.current.eventCradleActive += OpenGate;
         GameEvents.current.eventCradleDeactive += CloseGate;
+
+        CloseGate();
     }
 
     private void OpenGate()

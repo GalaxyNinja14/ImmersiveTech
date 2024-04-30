@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class Trigger : MonoBehaviour
 {
@@ -12,7 +13,20 @@ public class Trigger : MonoBehaviour
         if (collision.gameObject.CompareTag("Ball"))
         {
             // Instantiate the prefab at the position of the empty game object
-            Instantiate(prefabToSpawn, transform.position, Quaternion.identity);
+            GameObject spawnedObject = Instantiate(prefabToSpawn, transform.position, Quaternion.identity);
+
+            // Add Sphere Collider
+            SphereCollider collider = spawnedObject.AddComponent<SphereCollider>();
+
+            // Add Rigidbody
+            Rigidbody rb = spawnedObject.AddComponent<Rigidbody>();
+
+            // Add XR Grab Interactable
+            XRGrabInteractable grabInteractable = spawnedObject.AddComponent<XRGrabInteractable>();
+
+            // Set tag
+            spawnedObject.tag = "cradleObject";
         }
     }
 }
+
